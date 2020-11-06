@@ -1,4 +1,4 @@
-Name,Interface level,Restrictions,Algorithm,Implementation language,Interface languages,Codegen?,Dependencies,,URL,Main publication
+Name,Interface level,Restrictions,Algorithm,Implementation language,Interface languages,Codegen?,Dependencies,License,URL,Main publication
 HPIPM,QP,block dense,,C Assembly,,,,,https://github.com/giaf/hpipm,
 OSQP,QP,,,,,,,,https://osqp.org/,
 FORCES,QP,block dense,,,,,,,,
