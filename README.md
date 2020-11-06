@@ -1,4 +1,4 @@
-A curated list of solvers/software/frameworksrelevant for dynamic optimiation
+A curated list of solvers/software/frameworks relevant for dynamic optimiation
 
 Since editing large tavles in Markdown is a bit cumbersome, the actual list is in [csv](list.csv) form
 
