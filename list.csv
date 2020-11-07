@@ -2,6 +2,7 @@ Name,Interface level,Restrictions,Algorithm,Implementation language,Interface la
 HPIPM,QP,block dense,,C Assembly,,,,,https://github.com/giaf/hpipm,
 OSQP,QP,,,,,,,,https://osqp.org/,
 FORCES,QP,block dense,,,,,,,,
+FORCESNLP,,,,,,,,,https://www.tandfonline.com/doi/full/10.1080/00207179.2017.1316017,
 HQP,NLP,,SQP,,,,,,,
 NLPQLP,NLP,,SQP,,,,,,,
 SNOPT,NLP,,SQP,,,,,,,
