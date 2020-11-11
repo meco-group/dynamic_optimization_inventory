@@ -30,4 +30,4 @@ YOP,OCP,,,,,,CasADi,,https://www.yoptimization.com/,
 MPC tools,MPC,,,,,,CasADi,,,
 Rockit,OCP,nonlinear,,Python,,,CasADi,,https://gitlab.kuleuven.be/meco-software/rockit,
 Trajopt,MPC,robotics,,,,,,,http://rll.berkeley.edu/trajopt/doc/sphinx_build/html/,http://www.eecs.berkeley.edu/~joschu/docs/trajopt-paper.pdf
-ParNMPC,,nonlinear,,Matlab,,,,,https://github.com/deng-haoyang/ParNMPC,https://ieeexplore.ieee.org/document/8619035
+ParNMPC,,nonlinear,,Matlab,,,,,https://github.com/deng-haoyang/ParNMPC,https://www.tandfonline.com/doi/full/10.1080/00207179.2020.1798019
