@@ -32,3 +32,4 @@ Rockit,OCP,nonlinear,,Python,,,CasADi,,https://gitlab.kuleuven.be/meco-software/
 Trajopt,MPC,robotics,,,,,,,http://rll.berkeley.edu/trajopt/doc/sphinx_build/html/,http://www.eecs.berkeley.edu/~joschu/docs/trajopt-paper.pdf
 ParNMPC,,nonlinear,,Matlab,,,,,https://github.com/deng-haoyang/ParNMPC,https://www.tandfonline.com/doi/full/10.1080/00207179.2020.1798019
 Drake,,,,,,,,,,
+GPOPS,,,,,,,,,,
