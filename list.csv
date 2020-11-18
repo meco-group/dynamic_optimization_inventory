@@ -33,3 +33,4 @@ Trajopt,MPC,robotics,,,,,,,http://rll.berkeley.edu/trajopt/doc/sphinx_build/html
 ParNMPC,,nonlinear,,Matlab,,,,,https://github.com/deng-haoyang/ParNMPC,https://www.tandfonline.com/doi/full/10.1080/00207179.2020.1798019
 Drake,,,,,,,,,,
 GPOPS,,,,,,,,,,
+GRAMPC,,,,,,,,,,
