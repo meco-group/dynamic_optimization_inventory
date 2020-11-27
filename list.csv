@@ -1,6 +1,6 @@
 Name,Interface level,Restrictions,Algorithm,Implementation language,Interface languages,Codegen?,Dependencies,License,URL,Main publication
-HPIPM,QP,block dense,,C Assembly,,,,,https://github.com/giaf/hpipm,
-OSQP,QP,,,,,,,,https://osqp.org/,
+HPIPM,QP,block dense,Interior-point,C Assembly,,No,BLASFEO,BSD-2,https://github.com/giaf/hpipm,
+OSQP,QP,,"ADMM, first-order, operator splitting",C,"Python, Matlab",,,Apache 2,https://osqp.org/,
 FORCES,QP,block dense,,,,,,,,
 FORCESNLP,,,,,,,,,,https://www.tandfonline.com/doi/full/10.1080/00207179.2017.1316017
 HQP,NLP,,SQP,,,,,,,
@@ -33,6 +33,7 @@ Trajopt,MPC,robotics,,,,,,,http://rll.berkeley.edu/trajopt/doc/sphinx_build/html
 ParNMPC,,nonlinear,,Matlab,,,,,https://github.com/deng-haoyang/ParNMPC,https://www.tandfonline.com/doi/full/10.1080/00207179.2020.1798019
 Drake,,,,,,,,,,
 GPOPS,,,,,,,,,,
-GRAMPC,,,,,,,,,,
+GRAMPC,MPC,,augmented Lagrangian,C,Matlab Simulink,,,BSD,https://sourceforge.net/projects/grampc/,
 ALTRO,Motion planning,,,,,,,,,
 GusTO,Motion planning,,,,,,,,,
+VIATOC,,,,,,,,,https://sourceforge.net/p/viatoc/wiki/Home/,
