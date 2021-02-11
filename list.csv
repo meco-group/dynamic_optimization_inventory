@@ -37,6 +37,7 @@ GRAMPC,MPC,,augmented Lagrangian,C,Matlab Simulink,,,BSD,https://sourceforge.net
 ALTRO,Motion planning,,,,,,,,,
 GusTO,Motion planning,,,,,,,,,
 OBCA,Motion planning,,,,,,,,,
+CIAO,Motion planning,,,,,,,,https://arxiv.org/pdf/2001.05449,
 VIATOC,,,,,,,,,https://sourceforge.net/p/viatoc/wiki/Home/,
 Tenscalc,,,,,,,,,,
 OPTIPLAN,,,,,,,,,,
