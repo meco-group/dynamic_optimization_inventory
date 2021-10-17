@@ -53,4 +53,4 @@ FROST,,,,,,,,,https://ieeexplore.ieee.org/document/8202230,
 OptimTraj,OCP,,,,,,,,,https://github.com/MatthewPeterKelly/OptimTraj
 Realtime robotics,Motion planning,,,,,,,,,https://rtr.ai
 CDAL,QP,,"first-order factorisation free super compact",,,,,,https://arxiv.org/abs/2109.10205,.
-Altro.jl,OCP,,,,,,,,,https://github.com/RoboticExplorationLab/Altro.jl,
+Altro.jl,OCP,,,,,,,,https://github.com/RoboticExplorationLab/Altro.jl,
