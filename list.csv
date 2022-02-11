@@ -59,3 +59,4 @@ ODYS QP,QP,,,,,,,,https://www.odys.it/embedded-mpc/,
 Alpaca,NLP,,,,,,,,https://github.com/kul-optec/alpaqa,
 EMSO,modeling,,,,,,,,https://www.enq.ufrgs.br/trac/alsoc/wiki/EMSO,
 Plantegrity MPC,commericial NMPC,,,,,,,,,
+qpSWIFT,QP,,,C,"Python, Matlab",Yes,,,,https://ieeexplore.ieee.org/document/8754693
