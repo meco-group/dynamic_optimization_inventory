@@ -56,7 +56,8 @@ CDAL,QP,,"first-order factorisation free super compact",,,,,,https://arxiv.org/a
 TrajectoryOptimization.jl,OCP,,,,,,,,https://github.com/RoboticExplorationLab/TrajectoryOptimization.jl,
 Altro.jl,OCP,,,,,,,,https://github.com/RoboticExplorationLab/Altro.jl,
 ODYS QP,QP,,,,,,,,https://www.odys.it/embedded-mpc/,
-Alpaca,NLP,,,,,,,,https://github.com/kul-optec/alpaqa,
+Alpaqa,NLP,,,,,,,,https://github.com/kul-optec/alpaqa,
 EMSO,modeling,,,,,,,,https://www.enq.ufrgs.br/trac/alsoc/wiki/EMSO,
 Plantegrity MPC,commericial NMPC,,,,,,,,,
 qpSWIFT,QP,,,C,"Python, Matlab",Yes,,,,https://ieeexplore.ieee.org/document/8754693
+Robotoc,"OCP+MPC",,,C++,"Python",,"Pinocchio","BSD-3",https://github.com/mayataka/robotoc,https://arxiv.org/abs/2112.07232
