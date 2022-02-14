@@ -39,7 +39,7 @@ GusTO,Motion planning,,,,,,,,,
 OBCA,Motion planning,,,,,,,,,
 CIAO,Motion planning,,,,,,,,https://arxiv.org/pdf/2001.05449,
 VIATOC,,,,,,,,,https://sourceforge.net/p/viatoc/wiki/Home/,
-Tenscalc,,,,,,,,,,
+Tenscalc,NLP,,,,,Yes,"FunParTools, CmexTools, SuiteSparse",,https://github.com/hespanha/tenscalc,https://link.springer.com/article/10.1007/s12532-022-00216-2
 OPTIPLAN,,,,,,,,,,
 ASTOS,,,,,,,,,,
 SOCS,,,,,,,,,,
