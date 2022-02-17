@@ -61,3 +61,5 @@ EMSO,modeling,,,,,,,,https://www.enq.ufrgs.br/trac/alsoc/wiki/EMSO,
 Plantegrity MPC,commericial NMPC,,,,,,,,,
 qpSWIFT,QP,,,C,"Python, Matlab",Yes,,,,https://ieeexplore.ieee.org/document/8754693
 Robotoc,"OCP+MPC",,,C++,"Python",,"Pinocchio","BSD-3",https://github.com/mayataka/robotoc,https://arxiv.org/abs/2112.07232
+Crocoddyl,OCP,,,,,,,,https://github.com/loco-3d/crocoddyl/tree/devel,
+
