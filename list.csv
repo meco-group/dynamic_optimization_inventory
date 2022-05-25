@@ -2,7 +2,7 @@ Name,Interface level,Restrictions,Algorithm,Implementation language,Interface la
 HPIPM,QP,block dense,Interior-point,C Assembly,,No,BLASFEO,BSD-2,https://github.com/giaf/hpipm,
 OSQP,QP,,"ADMM, first-order, operator splitting",C,"Python, Matlab",,,Apache 2,https://osqp.org/,
 FORCES,QP,block dense,,,,,,,,
-FORCESNLP,,,,,,,,,,https://www.tandfonline.com/doi/full/10.1080/00207179.2017.1316017
+FORCESNLP,MPC,,SQP (affine inequalities online) - Interior point - ADMM,,,,,,,https://www.tandfonline.com/doi/full/10.1080/00207179.2017.1316017
 HQP,NLP,,SQP,,,,,,,
 NLPQLP,NLP,,SQP,,,,,,,
 SNOPT,NLP,,SQP,,,,,,,
