@@ -64,4 +64,5 @@ Robotoc,"OCP+MPC",,,C++,"Python",,"Pinocchio","BSD-3",https://github.com/mayatak
 Crocoddyl,OCP,,,,,,,,https://github.com/loco-3d/crocoddyl/tree/devel,
 OCS2,OCP,,,,,,,,https://github.com/leggedrobotics/ocs2,
 UNO,NLP,,,,,,,,https://github.com/cvanaret/uno,
+Horizon,"Motion planning",,,Python,,,"CasADi, Pinocchio, OSQP","LGPL",https://github.com/ADVRHumanoids/horizon,https://www.frontiersin.org/articles/10.3389/frobt.2022.899025/full
 
