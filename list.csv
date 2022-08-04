@@ -1,22 +1,22 @@
 Name,Interface level,Restrictions,Algorithm,Implementation language,Interface languages,Codegen?,Dependencies,License,URL,Main publication
 HPIPM,QP,block dense,Interior-point,C Assembly,,No,BLASFEO,BSD-2,https://github.com/giaf/hpipm,
 OSQP,QP,,"ADMM, first-order, operator splitting",C,"Python, Matlab",,,Apache 2,https://osqp.org/,
-FORCES,QP,block dense,,,,,,,,
+FORCES,QP,block dense,,,,,,,https://www.embotech.com/products/forcespro/overview/,
 FORCESNLP,MPC,,SQP (affine inequalities online) - Interior point - ADMM,,,,,,,https://www.tandfonline.com/doi/full/10.1080/00207179.2017.1316017
-HQP,NLP,,SQP,,,,,,,
-NLPQLP,NLP,,SQP,,,,,,,
-SNOPT,NLP,,SQP,,,,,,,
-IPOPT,NLP,,IP filter linesearch,,,,,,,
-WORHP,NLP,,,,,,,,,
-LOQO,NLP,,,,,,,,,
-KNITRO,NLP,,,,,,,,,
-NLOPT,NLP,,,,,,,,,
+HQP,NLP,,SQP,,,,,GNU,https://github.com/omuses/hqp,
+NLPQLP,NLP,,SQP,,,,,,http://klaus-schittkowski.de/nlpqlp.htm,
+SNOPT,NLP,,SQP,,,,,,https://ccom.ucsd.edu/~optimizers/solvers/snopt/,
+IPOPT,NLP,,IP filter linesearch,,,,,EPL,https://github.com/coin-or/Ipopt,
+WORHP,NLP,,,,,,,,https://worhp.de,
+LOQO,NLP,,,,,,,,https://ampl.com/products/solvers/solvers-we-sell/loqo/,
+KNITRO,NLP,,,,,,,,https://www.artelys.com/solvers/knitro/,
+NLOPT,NLP,,,,,,,,https://github.com/stevengj/nlopt,
 Control Toolbox,"OCP, MPC",,"iLQR, SS, MS",C++,,Yes,CppAD,BSD-2,https://github.com/ethz-adrl/control-toolbox,
 OptimizationEngine,NLP,,First order,,,,CasADi,,https://alphaville.github.io/optimization-engine/,
 MuAO-MPC,MPC,linear,augmented Lagrangian + nestorov,,,yes,,,http://ifatwww.et.uni-magdeburg.de/syst/muAO-MPC/,
 MUSCOD II,OCP,,,,,,,,,
 ACADO,MPC+OCP+NLP,nonlinear,"QP condensing, SQP",,,yes,,,http://www.acadotoolkit.org,
-Mathworks MPC toolbox,MPC,nonlinear (since 2018b),,,,yes nonlinear (since 2020a),Fmincon+FORCES,,,
+Mathworks MPC toolbox,MPC,nonlinear (since 2018b),,,,yes nonlinear (since 2020a),Fmincon+FORCES,,https://www.mathworks.com/products/model-predictive-control.html,
 YANE,MPC,,,,,,,,http://www.nonlinearmpc.com,
 OPTCON,,,multiple shooting,,,,,,,https://link.springer.com/article/10.1007/BF02071066
 NMPC,MPC,,,,,,fmincon,,www.nmpc-book.com,
@@ -24,7 +24,7 @@ Gekko/APMonitor,OCP,"nonlinear
 modeling language",,,,no (web-based interface),ipopt,,http://apmonitor.com/wiki/index.php/Main/PythonApp,
 MATMPC,MPC,nonlinear,,,,yes,,,https://github.com/chenyutao36/MATMPC,
 doMPC,MPC,,,,,,HPIPM,,https://github.com/do-mpc/do-mpc,
-ACADOS,MPC,,,,,yes,,,,
+ACADOS,MPC,,,,,yes,,BSD-2,https://github.com/acados/acados,
 OpenOCL,OCP,nonlinear,,,,yes,CasADi+ACADOS,,https://openocl.org/,
 YOP,OCP,,,,,,CasADi,,https://www.yoptimization.com/,
 MPC tools,MPC,,,,,,CasADi,,,
@@ -52,7 +52,7 @@ FaSTrack,motion oplanning,,,,,,,,,
 FROST,,,,,,,,,https://ieeexplore.ieee.org/document/8202230,
 OptimTraj,OCP,,,,,,,,,https://github.com/MatthewPeterKelly/OptimTraj
 Realtime robotics,Motion planning,,,,,,,,,https://rtr.ai
-CDAL,QP,,"first-order factorisation free super compact",,,,,,https://arxiv.org/abs/2109.10205,.
+CDAL,QP,,first-order factorisation free super compact,,,,,,https://arxiv.org/abs/2109.10205,.
 TrajectoryOptimization.jl,OCP,,,,,,,,https://github.com/RoboticExplorationLab/TrajectoryOptimization.jl,
 Altro.jl,OCP,,,,,,,,https://github.com/RoboticExplorationLab/Altro.jl,
 ODYS QP,QP,,,,,,,,https://www.odys.it/embedded-mpc/,
@@ -60,8 +60,8 @@ Alpaqa,NLP,,,,,,,,https://github.com/kul-optec/alpaqa,
 EMSO,modeling,,,,,,,,https://www.enq.ufrgs.br/trac/alsoc/wiki/EMSO,
 Plantegrity MPC,commericial NMPC,,,,,,,,,
 qpSWIFT,QP,,,C,"Python, Matlab",Yes,,,,https://ieeexplore.ieee.org/document/8754693
-Robotoc,"OCP+MPC",,,C++,"Python",,"Pinocchio","BSD-3",https://github.com/mayataka/robotoc,https://arxiv.org/abs/2112.07232
+Robotoc,OCP+MPC,,,C++,Python,,Pinocchio,BSD-3,https://github.com/mayataka/robotoc,https://arxiv.org/abs/2112.07232
 Crocoddyl,OCP,,,,,,,,https://github.com/loco-3d/crocoddyl/tree/devel,
 OCS2,OCP,,,,,,,,https://github.com/leggedrobotics/ocs2,
 UNO,NLP,,,,,,,,https://github.com/cvanaret/uno,
-Horizon,"Motion planning",,,Python,,,"CasADi, Pinocchio, OSQP","LGPL",https://github.com/ADVRHumanoids/horizon,https://www.frontiersin.org/articles/10.3389/frobt.2022.899025/full
+Horizon,Motion planning,,,Python,,,"CasADi, Pinocchio, OSQP",LGPL,https://github.com/ADVRHumanoids/horizon,https://www.frontiersin.org/articles/10.3389/frobt.2022.899025/full
