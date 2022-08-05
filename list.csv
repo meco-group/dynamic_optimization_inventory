@@ -1,68 +1,68 @@
-Name,Interface level,Restrictions,Algorithm,Implementation language,Interface languages,Codegen?,Dependencies,License,URL,Main publication
-HPIPM,QP,block dense,Interior-point,C Assembly,,No,BLASFEO,BSD-2,https://github.com/giaf/hpipm,
-OSQP,QP,,"ADMM, first-order, operator splitting",C,"Python, Matlab",,,Apache 2,https://osqp.org/,
-FORCES,QP,block dense,,,,,,,https://www.embotech.com/products/forcespro/overview/,
-FORCESNLP,MPC,,SQP (affine inequalities online) - Interior point - ADMM,,,,,,,https://www.tandfonline.com/doi/full/10.1080/00207179.2017.1316017
-HQP,NLP,,SQP,,,,,GNU,https://github.com/omuses/hqp,
-NLPQLP,NLP,,SQP,,,,,,http://klaus-schittkowski.de/nlpqlp.htm,
-SNOPT,NLP,,SQP,,,,,,https://ccom.ucsd.edu/~optimizers/solvers/snopt/,
-IPOPT,NLP,,IP filter linesearch,,,,,EPL,https://github.com/coin-or/Ipopt,
-WORHP,NLP,,,,,,,,https://worhp.de,
-LOQO,NLP,,,,,,,,https://ampl.com/products/solvers/solvers-we-sell/loqo/,
-KNITRO,NLP,,,,,,,,https://www.artelys.com/solvers/knitro/,
-NLOPT,NLP,,,,,,,,https://github.com/stevengj/nlopt,
-Control Toolbox,"OCP, MPC",,"iLQR, SS, MS",C++,,Yes,CppAD,BSD-2,https://github.com/ethz-adrl/control-toolbox,
-OptimizationEngine,NLP,,First order,,,,CasADi,,https://alphaville.github.io/optimization-engine/,
-MuAO-MPC,MPC,linear,augmented Lagrangian + nestorov,,,yes,,,http://ifatwww.et.uni-magdeburg.de/syst/muAO-MPC/,
-MUSCOD II,OCP,,,,,,,,,
-ACADO,MPC+OCP+NLP,nonlinear,"QP condensing, SQP",,,yes,,,http://www.acadotoolkit.org,
-Mathworks MPC toolbox,MPC,nonlinear (since 2018b),,,,yes nonlinear (since 2020a),Fmincon+FORCES,,https://www.mathworks.com/products/model-predictive-control.html,
-YANE,MPC,,,,,,,,http://www.nonlinearmpc.com,
-OPTCON,,,multiple shooting,,,,,,,https://link.springer.com/article/10.1007/BF02071066
-NMPC,MPC,,,,,,fmincon,,www.nmpc-book.com,
+Name,Interface level,Restrictions,Algorithm,Implementation language,Interface languages,Codegen?,Dependencies,License,Free academic license?,URL,Main publication
+HPIPM,QP,block dense,Interior-point,C Assembly,,No,BLASFEO,BSD-2,yes,https://github.com/giaf/hpipm,
+OSQP,QP,,"ADMM, first-order, operator splitting",C,"Python, Matlab",,,Apache 2,yes,https://osqp.org/,
+FORCES,QP,block dense,,,,,,,yes,https://www.embotech.com/products/forcespro/overview/,
+FORCESNLP,MPC,,SQP (affine inequalities online) - Interior point - ADMM,,,,,,,,https://www.tandfonline.com/doi/full/10.1080/00207179.2017.1316017
+HQP,NLP,,SQP,,,,,GNU,yes,https://github.com/omuses/hqp,
+NLPQLP,NLP,,SQP,,,,,,yes,http://klaus-schittkowski.de/nlpqlp.htm,
+SNOPT,NLP,,SQP,,,,,,yes (evaluation version),https://ccom.ucsd.edu/~optimizers/solvers/snopt/,
+IPOPT,NLP,,IP filter linesearch,,,,,EPL,yes,https://github.com/coin-or/Ipopt,
+WORHP,NLP,,,,,,,,,https://worhp.de,
+LOQO,NLP,,,,,,,,no,https://ampl.com/products/solvers/solvers-we-sell/loqo/,
+KNITRO,NLP,,,,,,,,no,https://www.artelys.com/solvers/knitro/,
+NLOPT,NLP,,,,,,,GNU,yes,https://github.com/stevengj/nlopt,
+Control Toolbox,"OCP, MPC",,"iLQR, SS, MS",C++,,Yes,CppAD,BSD-2,yes,https://github.com/ethz-adrl/control-toolbox,
+OptimizationEngine,NLP,,First order,,,,CasADi,Apache-2 / MIT,yes,https://alphaville.github.io/optimization-engine/,
+MuAO-MPC,MPC,linear,augmented Lagrangian + nestorov,,,yes,,BSD-3,yes,http://ifatwww.et.uni-magdeburg.de/syst/muAO-MPC/,
+MUSCOD II,OCP,,,,,,,,,,
+ACADO,MPC+OCP+NLP,nonlinear,"QP condensing, SQP",,,yes,,GNU-3,yes,http://www.acadotoolkit.org,
+Mathworks MPC toolbox,MPC,nonlinear (since 2018b),,,,yes nonlinear (since 2020a),Fmincon+FORCES,,no,https://www.mathworks.com/products/model-predictive-control.html,
+YANE,MPC,,,,,,,,yes,http://www.nonlinearmpc.com,
+OPTCON,,,multiple shooting,,,,,,,,https://link.springer.com/article/10.1007/BF02071066
+NMPC,MPC,,,,,,fmincon,,,www.nmpc-book.com,
 Gekko/APMonitor,OCP,"nonlinear
-modeling language",,,,no (web-based interface),ipopt,,http://apmonitor.com/wiki/index.php/Main/PythonApp,
-MATMPC,MPC,nonlinear,,,,yes,,,https://github.com/chenyutao36/MATMPC,
-doMPC,MPC,,,,,,HPIPM,,https://github.com/do-mpc/do-mpc,
-ACADOS,MPC,,,,,yes,,BSD-2,https://github.com/acados/acados,
-OpenOCL,OCP,nonlinear,,,,yes,CasADi+ACADOS,,https://openocl.org/,
-YOP,OCP,,,,,,CasADi,,https://www.yoptimization.com/,
-MPC tools,MPC,,,,,,CasADi,,,
-Rockit,OCP,nonlinear,,Python,,,CasADi,,https://gitlab.kuleuven.be/meco-software/rockit,
-Trajopt,MPC,robotics,,,,,,,http://rll.berkeley.edu/trajopt/doc/sphinx_build/html/,http://www.eecs.berkeley.edu/~joschu/docs/trajopt-paper.pdf
-ParNMPC,MPC,nonlinear,,Matlab,,Yes,many Matlab toolboxes,BSD-2,https://github.com/deng-haoyang/ParNMPC,https://www.tandfonline.com/doi/full/10.1080/00207179.2020.1798019
-Drake,,,,,,,,,https://drake.mit.edu,
-GPOPS,,,,,,,,,,
-GPOPS-II,,,,,,,,,https://www.gpops2.com,
-GRAMPC,MPC,,augmented Lagrangian,C,Matlab Simulink,,,BSD,https://sourceforge.net/projects/grampc/,
-ALTRO,Motion planning,,,,,,,MIT,https://github.com/RoboticExplorationLab/Altro.jl,
-GusTO,Motion planning,,,,,,,MIT,https://github.com/firedrakeproject/gusto,
-OBCA,Motion planning,,,,,,,GNU-3,https://github.com/XiaojingGeorgeZhang/OBCA,
-CIAO,Motion planning,,,,,,,,https://arxiv.org/pdf/2001.05449,
-VIATOC,,,,,,,,,https://sourceforge.net/p/viatoc/wiki/Home/,
-Tenscalc,NLP,,Interior-point,Matlab,,Yes,"FunParTools, CmexTools, SuiteSparse",,https://github.com/hespanha/tenscalc,https://link.springer.com/article/10.1007/s12532-022-00216-2
-OPTIPLAN,,,,,,,,GNU-2,https://github.com/kvasnica/optiplan,
-ASTOS,,,,,,,,,https://www.astos.de,
-SOCS,,,,,,,,,,
-ITOMP,,,,,,,,,,
-Tomlab,,,,,,,,,,
-MPT,,,,,,,,,,
-RobCoGen,Rigid body library with OCP extensions,,,,,,,,,https://doi.org/10.3929/ethz-b-000274142
-helperOC,OCP,,,,,,,,,https://github.com/HJReachability/helperOC
-FaSTrack,motion oplanning,,,,,,,,,
-FROST,,,,,,,,,https://ieeexplore.ieee.org/document/8202230,
-OptimTraj,OCP,,,,,,,,,https://github.com/MatthewPeterKelly/OptimTraj
-Realtime robotics,Motion planning,,,,,,,,,https://rtr.ai
-CDAL,QP,,first-order factorisation free super compact,,,,,,https://arxiv.org/abs/2109.10205,.
-TrajectoryOptimization.jl,OCP,,,,,,,,https://github.com/RoboticExplorationLab/TrajectoryOptimization.jl,
-Altro.jl,OCP,,,,,,,,https://github.com/RoboticExplorationLab/Altro.jl,
-ODYS QP,QP,,,,,,,,https://www.odys.it/embedded-mpc/,
-Alpaqa,NLP,,,,,,,,https://github.com/kul-optec/alpaqa,
-EMSO,modeling,,,,,,,,https://www.enq.ufrgs.br/trac/alsoc/wiki/EMSO,
-Plantegrity MPC,commericial NMPC,,,,,,,,,
-qpSWIFT,QP,,,C,"Python, Matlab",Yes,,,,https://ieeexplore.ieee.org/document/8754693
-Robotoc,OCP+MPC,,,C++,Python,,Pinocchio,BSD-3,https://github.com/mayataka/robotoc,https://arxiv.org/abs/2112.07232
-Crocoddyl,OCP,,,,,,,,https://github.com/loco-3d/crocoddyl/tree/devel,
-OCS2,OCP,,,,,,,,https://github.com/leggedrobotics/ocs2,
-UNO,NLP,,,,,,,,https://github.com/cvanaret/uno,
-Horizon,Motion planning,,,Python,,,"CasADi, Pinocchio, OSQP",LGPL,https://github.com/ADVRHumanoids/horizon,https://www.frontiersin.org/articles/10.3389/frobt.2022.899025/full
+modeling language",,,,no (web-based interface),ipopt,,,http://apmonitor.com/wiki/index.php/Main/PythonApp,
+MATMPC,MPC,nonlinear,,,,yes,,,,https://github.com/chenyutao36/MATMPC,
+doMPC,MPC,,,,,,HPIPM,,,https://github.com/do-mpc/do-mpc,
+ACADOS,MPC,,,,,yes,,BSD-2,yes,https://github.com/acados/acados,
+OpenOCL,OCP,nonlinear,,,,yes,CasADi+ACADOS,,,https://openocl.org/,
+YOP,OCP,,,,,,CasADi,,,https://www.yoptimization.com/,
+MPC tools,MPC,,,,,,CasADi,,,,
+Rockit,OCP,nonlinear,,Python,,,CasADi,,,https://gitlab.kuleuven.be/meco-software/rockit,
+Trajopt,MPC,robotics,,,,,,,,http://rll.berkeley.edu/trajopt/doc/sphinx_build/html/,http://www.eecs.berkeley.edu/~joschu/docs/trajopt-paper.pdf
+ParNMPC,MPC,nonlinear,,Matlab,,Yes,many Matlab toolboxes,BSD-2,yes,https://github.com/deng-haoyang/ParNMPC,https://www.tandfonline.com/doi/full/10.1080/00207179.2020.1798019
+Drake,,,,,,,,,,https://drake.mit.edu,
+GPOPS,,,,,,,,,,,
+GPOPS-II,,,,,,,,,,https://www.gpops2.com,
+GRAMPC,MPC,,augmented Lagrangian,C,Matlab Simulink,,,BSD,yes,https://sourceforge.net/projects/grampc/,
+ALTRO,Motion planning,,,,,,,MIT,yes,https://github.com/RoboticExplorationLab/Altro.jl,
+GusTO,Motion planning,,,,,,,MIT,yes,https://github.com/firedrakeproject/gusto,
+OBCA,Motion planning,,,,,,,GNU-3,yes,https://github.com/XiaojingGeorgeZhang/OBCA,
+CIAO,Motion planning,,,,,,,,,https://arxiv.org/pdf/2001.05449,
+VIATOC,,,,,,,,,,https://sourceforge.net/p/viatoc/wiki/Home/,
+Tenscalc,NLP,,Interior-point,Matlab,,Yes,"FunParTools, CmexTools, SuiteSparse",,,https://github.com/hespanha/tenscalc,https://link.springer.com/article/10.1007/s12532-022-00216-2
+OPTIPLAN,,,,,,,,GNU-2,yes,https://github.com/kvasnica/optiplan,
+ASTOS,,,,,,,,,,https://www.astos.de,
+SOCS,,,,,,,,,,,
+ITOMP,,,,,,,,BSD-3,yes,https://github.com/Chpark/itomp,http://gamma.cs.unc.edu/ITOMP/wafr12.pdf
+Tomlab,,,,,,,,,no,https://tomopt.com/tomlab/about/,
+MPT,,,,,,,,GNU,yes,https://www.mpt3.org,
+RobCoGen,Rigid body library with OCP extensions,,,,,Yes,,BSD-3,yes,https://bitbucket.org/robcogenteam/robcogen/src/master/,https://doi.org/10.3929/ethz-b-000274142
+helperOC,OCP,,,,,,,,,,https://github.com/HJReachability/helperOC
+FaSTrack,motion oplanning,,,,,,,,,,
+FROST,,,,,,,,,,https://ieeexplore.ieee.org/document/8202230,
+OptimTraj,OCP,,,,,,,MIT,yes,,https://github.com/MatthewPeterKelly/OptimTraj
+Realtime robotics,Motion planning,,,,,,,,,,https://rtr.ai
+CDAL,QP,,first-order factorisation free super compact,,,,,,,https://arxiv.org/abs/2109.10205,.
+TrajectoryOptimization.jl,OCP,,,,,,,,,https://github.com/RoboticExplorationLab/TrajectoryOptimization.jl,
+Altro.jl,OCP,,,,,,,,,https://github.com/RoboticExplorationLab/Altro.jl,
+ODYS QP,QP,,,,,,,,,https://www.odys.it/embedded-mpc/,
+Alpaqa,NLP,,,,,,,,,https://github.com/kul-optec/alpaqa,
+EMSO,modeling,,,,,,,,,https://www.enq.ufrgs.br/trac/alsoc/wiki/EMSO,
+Plantegrity MPC,commericial NMPC,,,,,,,,,https://www.ciengis.com/plantegrity/,
+qpSWIFT,QP,,,C,"Python, Matlab",Yes,,GNU-3,yes,https://github.com/qpSWIFT/qpSWIFT,https://ieeexplore.ieee.org/document/8754693
+Robotoc,OCP+MPC,,,C++,Python,,Pinocchio,BSD-3,yes,https://github.com/mayataka/robotoc,https://arxiv.org/abs/2112.07232
+Crocoddyl,OCP,,,,,,,,,https://github.com/loco-3d/crocoddyl/tree/devel,
+OCS2,OCP,,,,,,,,,https://github.com/leggedrobotics/ocs2,
+UNO,NLP,,,,,,,,,https://github.com/cvanaret/uno,
+Horizon,Motion planning,,,Python,,,"CasADi, Pinocchio, OSQP",LGPL,yes,https://github.com/ADVRHumanoids/horizon,https://www.frontiersin.org/articles/10.3389/frobt.2022.899025/full
