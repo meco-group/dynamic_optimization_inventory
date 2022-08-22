@@ -1,7 +1,7 @@
 Name,Interface level,Restrictions,Algorithm,Implementation language,Interface languages,Codegen?,Dependencies,License,Free academic license?,How to obtain license?,How to install?,URL,Main publication,Notes
 HPIPM,QP,block dense,Interior-point,C Assembly,"Matlab, Python",No,BLASFEO,BSD-2,yes,Nothing to obtain,See readme,https://github.com/giaf/hpipm,,
 OSQP,QP,,"ADMM, first-order, operator splitting",C,"Python, Matlab, Julia, R",Yes,/,Apache 2,yes,Nothing to obtain,https://osqp.org/docs/get_started/,https://osqp.org/,,
-FORCES,"QP, OCP, MPC","block dense, uses server",,,"Matlab, C, C++, Python",Yes,CasADi,,yes,"Online, trial license is active instantly","Download client, add to python path",https://www.embotech.com/products/forcespro/overview/,,
+FORCES,"QP, OCP, MPC","block dense, uses server (can be configured to own server)",,,"Matlab, C, C++, Python",Yes,CasADi,,yes,"Online, trial license is active instantly","Download client, add to python path",https://www.embotech.com/products/forcespro/overview/,,
 FORCESNLP,MPC,,SQP (affine inequalities online) - Interior point - ADMM,,,,,,,,,,https://www.tandfonline.com/doi/full/10.1080/00207179.2017.1316017,Seems to use same software-packet as FORCES
 HQP,NLP,,SQP,C,,,,GNU GPL,yes,Nothing to obtain,http://omuses.github.io/hqp/doc/html/installation.html,https://github.com/omuses/hqp,,
 NLPQLP,NLP,,SQP,,,,,,yes,,,http://klaus-schittkowski.de/nlpqlp.htm,,
