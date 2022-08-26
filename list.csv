@@ -14,7 +14,7 @@ NLOPT,NLP,,,C,"C++, Fortran, Python, Matlab, OCaml, Rust, Julia, GNU R",,,GNU LG
 Control Toolbox,"OCP, MPC",,"iLQR, SS, MS",C++,C++,Yes,CppAD,BSD-2,yes,Nothing to obtain,https://github.com/ethz-adrl/control-toolbox/wiki/Quickstart,https://github.com/ethz-adrl/control-toolbox,,
 OptimizationEngine,NLP,,First order,Rust,"Python, Matlab, C++",,CasADi,Apache-2 / MIT,yes,Nothing to obtain,https://alphaville.github.io/optimization-engine/docs/installation,https://alphaville.github.io/optimization-engine/,,
 MuAO-MPC,MPC,linear,augmented Lagrangian + nestorov,"C, Python","Python, Matlab",yes,,BSD-3,yes,Nothing to obtain,pip install muaompc,http://ifatwww.et.uni-magdeburg.de/syst/muAO-MPC/,,
-MUSCOD II,OCP,,,,,,,,,,,,,
+MUSCOD II,OCP,,,,"Fortran, C, gPROMS modelling language",,,,Yes,Contact through mail (prof Bock),,https://simopt.iwr.uni-heidelberg.de/muscod-ii,,
 ACADO,MPC+OCP+NLP,nonlinear,"QP condensing, SQP",C++,Matlab,yes,,GNU LGPL 3,yes,Nothing to obtain,http://acado.github.io/install_linux.html,http://www.acadotoolkit.org,,
 Mathworks MPC toolbox,MPC,nonlinear (since 2018b),,,Matlab,yes nonlinear (since 2020a),Fmincon+FORCES,,no,,,https://www.mathworks.com/products/model-predictive-control.html,,
 YANE,MPC,,,C++,C++,,,,yes,,,http://www.nonlinearmpc.com,,
@@ -29,7 +29,7 @@ OpenOCL,OCP,nonlinear,,Matlab,Matlab,yes,CasADi+ACADOS,BSD-3,yes,Nothing to obta
 YOP,OCP,,,Matlab,Matlab,,CasADi,GNU GPL 3,yes,Nothing to obtain,,https://www.yoptimization.com/,,
 MPC tools,MPC,,,Matlab,Octave (& Matlab),,CasADi,GNU LGPL,yes,,,https://sites.engineering.ucsb.edu/~jbraw/software/mpctools/index.html,,
 Rockit,OCP,nonlinear,,Python,,,CasADi,GNU LGPL 3,yes,,,https://gitlab.kuleuven.be/meco-software/rockit,,
-Trajopt,MPC,robotics,,C++,"Python, C++",,,BSD-2,yes,,,http://rll.berkeley.edu/trajopt/doc/sphinx_build/html/,http://www.eecs.berkeley.edu/~joschu/docs/trajopt-paper.pdf,
+Trajopt,MPC,robotics,,C++,"Python, C++",,,BSD-2,yes,,,http://rll.berkeley.edu/trajopt/doc/sphinx_build/html/,http://www.eecs.berkeley.edu/~joschu/docs/trajopt-paper.pdf,No updates happened in the last 6 years? CMake written for python2 ...
 ParNMPC,MPC,nonlinear,,Matlab,Matlab,Yes,many Matlab toolboxes,BSD-2,yes,,,https://github.com/deng-haoyang/ParNMPC,https://www.tandfonline.com/doi/full/10.1080/00207179.2020.1798019,
 Drake,NLP,,,C++,"Python, C++",,,BSD-3,yes,,,https://drake.mit.edu,,
 GPOPS,,,,,,,,,,,,,,
