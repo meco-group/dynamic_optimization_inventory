@@ -73,3 +73,4 @@ Horizon,Motion planning,,,Python,,,"CasADi, Pinocchio, OSQP",LGPL,yes,,,https://
 MLI,MPC,,,,,,,,,,,https://simopt.iwr.uni-heidelberg.de/mli-/-stmli,http://www.ub.uni-heidelberg.de/archiv/24402,
 DYMOS,OCP,,,,Python,,,Apache 2,yes,Nothing to obtain,,https://github.com/OpenMDAO/dymos,https://joss.theoj.org/papers/10.21105/joss.02809,
 PSOPT,OCP,,,C++,C++,,"IPOPT, ADOL-C, Eigen3",GNU LGPL 2.1,yes,Nothing to obtain,Typical cmake,https://github.com/PSOPT/psopt,https://ieeexplore.ieee.org/document/5612676,
+NOSNOC,OCP,,,MATLAB,"MATLAB, (in future also Python)",,CasADi,GNU GPL 3,yes,Nothing to obtain,Add to MATLAB path,https://github.com/nurkanovic/nosnoc,https://ieeexplore.ieee.org/abstract/document/9792317,System must be piecewise smooth
