@@ -78,3 +78,4 @@ qpDUNES,QP,Block-banded convex QPs,Dual newton strategy,C,"C, C++, MATLAB",No,,G
 pyMPC,MPC,Linear constrained MPC,,Python,Python,No,OSQP,MIT,yes,Nothing to obtain,pip,https://github.com/forgi86/pyMPC,https://arxiv.org/pdf/1911.13021,
 HILO-MPC,MPC,,,Python,Python,No,,GNU LGPL 2,yes,Nothing to obtain,pip,https://github.com/hilo-mpc/hilo-mpc,https://arxiv.org/abs/2203.13671,"Also does estimation, machine learning & modelling"
 OMPL,Motion planning,Sampling-based,,C++,"C++, Python",Yes,"Boost, CMake, Eigen",BSD-3,yes,Nothing to obtain,CMake,https://github.com/ompl/ompl,https://ompl.kavrakilab.org/core/ieee-ram-2012-ompl.pdf,
+CVXGEN,QP,Must be convex,,C,"C, Matlab",Yes,,,yes,Request through form (https://cvxgen.com/licenses/new),CMake (Matlab)/Make (C),https://cvxgen.com/docs/index.html,https://stanford.edu/~boyd/papers/pdf/code_gen_impl.pdf,No updates since 2014
