@@ -76,3 +76,4 @@ PSOPT,OCP,,,C++,C++,No,"IPOPT, ADOL-C, Eigen3",GNU LGPL 2.1,yes,Nothing to obtai
 NOSNOC,OCP,Nonsmooth systems,FESD (Finite elements with switch detection),MATLAB,"MATLAB, (in future also Python)",,CasADi,GNU GPL 3,yes,Nothing to obtain,Add to MATLAB path,https://github.com/nurkanovic/nosnoc,https://ieeexplore.ieee.org/abstract/document/9792317,
 qpDUNES,QP,Block-banded convex QPs,Dual newton strategy,C,"C, C++, MATLAB",No,,GNU LGPL 2.1,yes,Nothing to obtain,Linux: apt-get. Rest: Make,https://github.com/jfrasch/qpDUNES,https://optimization-online.org/2013/11/4114/,No updates since 2016
 pyMPC,MPC,Linear constrained MPC,,Python,Python,No,OSQP,MIT,yes,Nothing to obtain,pip,https://github.com/forgi86/pyMPC,https://arxiv.org/pdf/1911.13021,
+HILO-MPC,MPC,,,Python,Python,No,,GNU LGPL 2,yes,Nothing to obtain,pip,https://github.com/hilo-mpc/hilo-mpc,https://arxiv.org/abs/2203.13671,"Also does estimation, machine learning & modelling"
