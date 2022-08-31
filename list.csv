@@ -83,3 +83,4 @@ YALMIP,QP,,,Matlab,Matlab,,,Custom license,yes,Nothing to obtain,Add to MATLAB p
 libmpc++,MPC,,,C++,C++,No,"Eigen3, NLopt, OSQP","Not specified, open source",yes,Nothing to obtain,,https://github.com/nicolapiccinelli/libmpc,,
 omsf,Motion planning,Only discrete dynamics supported,,Python,Python,No,ipopt,GNU LGPL 3,yes,Nothing to obtain,pip,https://github.com/mkatliar/omsf,https://www.sciencedirect.com/science/article/abs/pii/S1369847818308544,
 PythonLinearNonlinearControl,MPC,,,Python,Python,No,,MIT,yes,Nothing to obtain,pip,https://github.com/Shunichi09/PythonLinearNonlinearControl,,
+Robust tube MPC,MPC,Inequality constraints are convex,,Matlab,Matlab,No,"Optimization toolbox, control toolbox, MPT3",MIT,yes,Nothing to obtain,Add to MATLAB path,https://github.com/HiroIshida/robust-tube-mpc,,
