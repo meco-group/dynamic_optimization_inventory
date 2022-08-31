@@ -81,3 +81,4 @@ OMPL,Motion planning,Sampling-based,,C++,"C++, Python",Yes,"Boost, CMake, Eigen"
 CVXGEN,QP,Must be convex,,C,"C, Matlab",Yes,,Custom license,yes,Request through form (https://cvxgen.com/licenses/new),CMake (Matlab)/Make (C),https://cvxgen.com/docs/index.html,https://stanford.edu/~boyd/papers/pdf/code_gen_impl.pdf,No updates since 2014
 YALMIP,QP,,,Matlab,Matlab,,,Custom license,yes,Nothing to obtain,Add to MATLAB path,https://yalmip.github.io/tutorial/basics/,https://ieeexplore.ieee.org/document/1393890,Automatically selects solver
 libmpc++,MPC,,,C++,C++,No,"Eigen3, NLopt, OSQP","Not specified, open source",yes,Nothing to obtain,,https://github.com/nicolapiccinelli/libmpc,,
+omsf,Motion planning,Only discrete dynamics supported,,Python,Python,No,ipopt,GNU LGPL 3,yes,Nothing to obtain,pip,https://github.com/mkatliar/omsf,https://www.sciencedirect.com/science/article/abs/pii/S1369847818308544,
