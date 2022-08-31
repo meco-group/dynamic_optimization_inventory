@@ -85,4 +85,5 @@ omsf,Motion planning,Only discrete dynamics supported,,Python,Python,No,ipopt,GN
 PythonLinearNonlinearControl,MPC,,,Python,Python,No,,MIT,yes,Nothing to obtain,pip,https://github.com/Shunichi09/PythonLinearNonlinearControl,,
 Robust tube MPC,MPC,Inequality constraints are convex,,Matlab,Matlab,No,"Optimization toolbox, control toolbox, MPT3",MIT,yes,Nothing to obtain,Add to MATLAB path,https://github.com/HiroIshida/robust-tube-mpc,,
 Autogenu-jupyter,MPC,,C/GMRES,"C++, Python","Python, C++",Yes,,MIT,yes,Nothing to obtain,pip & CMake,https://github.com/mayataka/autogenu-jupyter,http://ifatwww.et.uni-magdeburg.de/ifac2020/media/pdfs/0236.pdf,
-NASOQ,QP,,,C++,"C++, MATLAB",No,optional: BLAS & LAPACK,MIT,yes,Nothing to obtain,CMake,https://github.com/sympiler/nasoq,https://nasoq.github.io/siggraph20.html,
+NASOQ,QP,Mainly focused on sparse problems,,C++,"C++, MATLAB",No,optional: BLAS & LAPACK,MIT,yes,Nothing to obtain,CMake,https://github.com/sympiler/nasoq,https://nasoq.github.io/siggraph20.html,
+Trajopt-Hanyas,MPC,,,"C++, Python","C++, Python",No,"Pybind, OpenBLAS, Armadillo",MIT,yes,Nothing to obtain,pip,https://github.com/hanyas/trajopt,,
