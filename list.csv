@@ -67,7 +67,7 @@ qpSWIFT,QP,,,C,"Python, Matlab",Yes,,GNU GPL 3,yes,,,https://github.com/qpSWIFT/
 Robotoc,OCP+MPC,,,C++,Python,,Pinocchio,BSD-3,yes,,,https://github.com/mayataka/robotoc,https://arxiv.org/abs/2112.07232,
 Crocoddyl,OCP,Currently no state-only constraint possible,DDP (Differential dynamic programming),C++,"Python, C++","Yes, only for C++","pinocchio, eigen, eigenpy, boost",BSD-3,yes,Nothing to obtain,conda install crocoddyl -c conda-forge (version is not always the newest),https://github.com/loco-3d/crocoddyl/tree/devel,,
 Bioptim,OCP,,Interior-point,Python,Python,,CasADi+Biorbd+Rbdl,MIT,yes,Nothing to obtain,conda install bioptim -c conda-forge,https://github.com/pyomeca/bioptim,https://ieeexplore.ieee.org/document/9808374,
-OCS2,OCP,,,C++,C++,,,BSD-3,yes,Nothing to obtain,,https://github.com/leggedrobotics/ocs2,,
+OCS2,OCP,,"SLQ DDP,iLQR DDP,HPIPM-based SQP,PISOC",C++,C++,,,BSD-3,yes,Nothing to obtain,,https://github.com/leggedrobotics/ocs2,,
 UNO,NLP,,,C++,"C++, AMPL modelling language (.mod file extension)",,,MIT,yes,,,https://github.com/cvanaret/uno,,
 Horizon,Motion planning,,,Python,,,"CasADi, Pinocchio, OSQP",LGPL,yes,,,https://github.com/ADVRHumanoids/horizon,https://www.frontiersin.org/articles/10.3389/frobt.2022.899025/full,
 MLI,MPC,,MLI (Multi level iteration schemes),MATLAB,MATLAB,,,,,,,https://simopt.iwr.uni-heidelberg.de/mli-/-stmli,http://www.ub.uni-heidelberg.de/archiv/24402,
