@@ -89,3 +89,5 @@ NASOQ,QP,Mainly focused on sparse problems,,C++,"C++, MATLAB",No,optional: BLAS 
 Trajopt-Hanyas,MPC,,,"C++, Python","C++, Python",No,"Pybind, OpenBLAS, Armadillo",MIT,yes,Nothing to obtain,pip,https://github.com/hanyas/trajopt,,
 NMPC-DCLF-DCBF,MPC,,,Matlab,Matlab,No,"Yalmip, ipopt",MIT,yes,Nothing to obtain,Add to MATLAB path,https://github.com/HybridRobotics/NMPC-DCLF-DCBF,,
 SLEQP,NLP,,,C,C,,,,,,,https://github.com/chrhansk/sleqp,,
+DAQP,QP,,,C,C,,,,,,,https://github.com/darnstrom/daqp,,
+
