@@ -90,4 +90,4 @@ Trajopt-Hanyas,MPC,,,"C++, Python","C++, Python",No,"Pybind, OpenBLAS, Armadillo
 NMPC-DCLF-DCBF,MPC,,,Matlab,Matlab,No,"Yalmip, ipopt",MIT,yes,Nothing to obtain,Add to MATLAB path,https://github.com/HybridRobotics/NMPC-DCLF-DCBF,,
 SLEQP,NLP,,,C,C,,,,,,,https://github.com/chrhansk/sleqp,,
 DAQP,QP,,,C,C,,,,,,,https://github.com/darnstrom/daqp,,
-
+ProxSuite,QP,,primal-dual proximal ,"C++",C,,,,,,,https://github.com/Simple-Robotics/proxsuite,,
