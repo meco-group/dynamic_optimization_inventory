@@ -6,5 +6,6 @@ Data-sources:
  * [ ] https://web.stanford.edu/~boyd/software.html
  * [ ] Recent Advances in Quadratic Programming Algorithms for Nonlinear Model Predictive Control https://cdn.syscop.de/publications/Kouzoupis2018.pdf
  * [ ] https://swmath.org/
+ * [ ] https://www.mdpi.com/2075-1702/10/2/97
  
 https://mpcworkshop.org/
