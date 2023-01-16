@@ -29,7 +29,7 @@ OpenOCL,OCP,nonlinear,,Matlab,Matlab,yes,CasADi+ACADOS,BSD-3,yes,Nothing to obta
 YOP,OCP,,,Matlab,Matlab,,CasADi,GNU GPL 3,yes,Nothing to obtain,,https://www.yoptimization.com/,,
 MPC tools,MPC,,,Matlab,Octave (& Matlab),,CasADi,GNU LGPL,yes,,,https://sites.engineering.ucsb.edu/~jbraw/software/mpctools/index.html,,
 Rockit,OCP,nonlinear,,Python,,,CasADi,GNU LGPL 3,yes,,,https://gitlab.kuleuven.be/meco-software/rockit,,
-Trajopt,MPC,robotics,,C++,"Python, C++",,,BSD-2,yes,,,http://rll.berkeley.edu/trajopt/doc/sphinx_build/html/,http://www.eecs.berkeley.edu/~joschu/docs/trajopt-paper.pdf,No updates happened in the last 6 years? CMake written for python2 ...
+Trajopt,MPC,robotics,"SQP, box trust region, Lie algebra, signed distance using penetration depth, swept volume, multiples shooitng and direct collocation",C++,"Python, C++",,"Gurobi, Eigen, Boost",BSD-2,yes,,,http://rll.berkeley.edu/trajopt/doc/sphinx_build/html/,http://www.eecs.berkeley.edu/~joschu/docs/trajopt-paper.pdf,No updates happened in the last 6 years? CMake written for python2 ...
 ParNMPC,MPC,nonlinear,,Matlab,Matlab,Yes,many Matlab toolboxes,BSD-2,yes,,,https://github.com/deng-haoyang/ParNMPC,https://www.tandfonline.com/doi/full/10.1080/00207179.2020.1798019,
 Drake,NLP,,,C++,"Python, C++",,,BSD-3,yes,,,https://drake.mit.edu,,
 GPOPS,,,,,,,,,,,,,,
@@ -92,3 +92,8 @@ SLEQP,NLP,Sparse,,C,C,,(Gurobi|HIGHS|SoPplex) (Cholmod|UMFPACK|MUMPS|MA*|SPQR) t
 DAQP,QP,Dense,dual active set,C,C,,none,MIT,yes,,,https://github.com/darnstrom/daqp,,
 ProxSuite,QP,Dense or sparse,primal-dual proximal ,C++,C,,Eigen,BSD-2,yes,,,https://github.com/Simple-Robotics/proxsuite,,
 SymForce,,,,Python,Python,yes,"SymEngine, SymPy, Eigen, NumPy",Apache-2,yes,,,https://github.com/symforce-org/symforce,https://doi.org/10.15607/RSS.2022.XVIII.041,
+CHOMP,Motion planning,Unconstrained,"unconstrained Newton step with Hess part coming from L2 distance wrt to previous iteration, distance transform, joint limits in objective or projection in-bounds, obstacle codes is penalty integrated over path length",C++,,no,,BSD,yes,,,http://www.nathanratliff.com/thesis-research/chomp,http://dx.doi.org/10.1109/ROBOT.2009.5152817,incorporated in MoveIt
+STOMP,Motion planning,Unconstrained,"derivative free optimization, obstacles: self= collection of spheres",C++,,no,,BSD,yes,,,,,
+SBPL,Motion planning,,,,,,,,,,,,,
+GPMP,Motion planning,Unconstrained,"State traj is Gaussian Process (states may be sampled at different freq), smells like Matrix-Lyap diff eq, Mahalanobis distance, integral of collision cost, unconstrained Newton step with Hess part coming from L2 distance wrt to previous iteration, emphasis on fast interpolation with GP, constraints handled by r projection in-bounds",,,,,,,,,,,
+GPMP2,,,Nonlinear least squares,,,,,BSD,,,,https://github.com/gtrll/gpmp2,http://www.cc.gatech.edu/~bboots3/files/GPMP2.pdf,
