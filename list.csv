@@ -89,7 +89,7 @@ NASOQ,QP,Mainly focused on sparse problems,,C++,"C++, MATLAB",No,optional: BLAS 
 Trajopt-Hanyas,MPC,,,"C++, Python","C++, Python",No,"Pybind, OpenBLAS, Armadillo",MIT,yes,Nothing to obtain,pip,https://github.com/hanyas/trajopt,,
 NMPC-DCLF-DCBF,MPC,,,Matlab,Matlab,No,"Yalmip, ipopt",MIT,yes,Nothing to obtain,Add to MATLAB path,https://github.com/HybridRobotics/NMPC-DCLF-DCBF,,
 SLEQP,NLP,Sparse,,C,C,,(Gurobi|HIGHS|SoPplex) (Cholmod|UMFPACK|MUMPS|MA*|SPQR) trlib,LGPL 3,yes,,,https://github.com/chrhansk/sleqp,,
-DAQP,QP,Dense,dual active set,C,C,,none,MIT,yes,,,https://github.com/darnstrom/daqp,,
+DAQP,QP/LP,Dense,dual active set,C,C,,none,MIT,yes,,,https://github.com/darnstrom/daqp,,
 ProxSuite,QP,Dense or sparse,primal-dual proximal ,C++,C,,Eigen,BSD-2,yes,,,https://github.com/Simple-Robotics/proxsuite,,
 SymForce,,,,Python,Python,yes,"SymEngine, SymPy, Eigen, NumPy",Apache-2,yes,,,https://github.com/symforce-org/symforce,https://doi.org/10.15607/RSS.2022.XVIII.041,
 CHOMP,Motion planning,Unconstrained,"unconstrained Newton step with Hess part coming from L2 distance wrt to previous iteration, distance transform, joint limits in objective or projection in-bounds, obstacle codes is penalty integrated over path length",C++,,no,,BSD,yes,,,http://www.nathanratliff.com/thesis-research/chomp,http://dx.doi.org/10.1109/ROBOT.2009.5152817,incorporated in MoveIt
