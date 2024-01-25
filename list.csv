@@ -99,3 +99,5 @@ GPMP,Motion planning,Unconstrained,"State traj is Gaussian Process (states may b
 GPMP2,,,Nonlinear least squares,,,,,BSD,,,,https://github.com/gtrll/gpmp2,http://www.cc.gatech.edu/~bboots3/files/GPMP2.pdf,
 Clarabel,QP,,,,,,,Apache,,,,https://github.com/oxfordcontrol/Clarabel.rs,,
 PiQP,QP,Indefinite,,,,,,,,,,https://github.com/PREDICT-EPFL/piqp,,
+Fabrics,Motion planning,,Differential geometry,,,,,,,,,git@github.com:tud-amr/fabrics.git,,
+OpTaS,Motion planning,,,,,,,CasADi,,,,git@github.com:tud-amr/fabrics.git,,
