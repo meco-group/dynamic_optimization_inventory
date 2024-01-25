@@ -60,7 +60,7 @@ CDAL,QP,,first-order factorisation free super compact,,,,,,,,,,https://arxiv.org
 TrajectoryOptimization.jl,OCP,,,Julia,Julia,No,,MIT,yes,Nothing to obtain,,https://github.com/RoboticExplorationLab/TrajectoryOptimization.jl,,
 Altro.jl,OCP,,,Julia,Julia,,,MIT,yes,Nothing to obtain,,https://github.com/RoboticExplorationLab/Altro.jl,,
 ODYS QP,QP,,,C,"C, C++, Matlab, Python",,,,,,,https://www.odys.it/embedded-mpc/,,
-Alpaqa,NLP,,,C++,"Python, C++",Yes,,GNU LGPL 3,yes,,,https://github.com/kul-optec/alpaqa,,
+Alpaqa,NLP,,,C++,"Python, C++",Yes,CasADi,GNU LGPL 3,yes,,,https://github.com/kul-optec/alpaqa,,
 EMSO,modeling,,,C++,,,,,yes,,,https://www.enq.ufrgs.br/trac/alsoc/wiki/EMSO,,
 Plantegrity MPC,commericial NMPC,,,,,,,,,,,https://www.ciengis.com/plantegrity/,,
 qpSWIFT,QP,,,C,"Python, Matlab",Yes,,GNU GPL 3,yes,,,https://github.com/qpSWIFT/qpSWIFT,https://ieeexplore.ieee.org/document/8754693,
