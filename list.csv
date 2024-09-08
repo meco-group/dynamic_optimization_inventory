@@ -100,5 +100,6 @@ GPMP2,,,Nonlinear least squares,,,,,BSD,,,,https://github.com/gtrll/gpmp2,http:/
 Clarabel,QP,,,Julia and Rust,,,,Apache,,,,https://github.com/oxfordcontrol/Clarabel.rs,,
 PiQP,QP,Indefinite,,,,,,,,,,https://github.com/PREDICT-EPFL/piqp,,
 Fabrics,Motion planning,,Differential geometry,,,,,,,,,git@github.com:tud-amr/fabrics.git,,
+MPCJAX,MPC,,,,,,,,,,,git@github.com:rdyro/mpcjax.git,,
 OpTaS,Motion planning,,,,,,,CasADi,,,,git@github.com:tud-amr/fabrics.git,,
 MPOPT,OCP,,pseudo spectral,,,,,CasADi,,,,https://github.com/mpopt/mpopt,,
