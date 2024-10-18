@@ -103,4 +103,4 @@ Fabrics,Motion planning,,Differential geometry,,,,,,,,,git@github.com:tud-amr/fa
 MPCJAX,MPC,,,,,,,,,,,git@github.com:rdyro/mpcjax.git,,
 OpTaS,Motion planning,,,,,,,CasADi,,,,git@github.com:tud-amr/fabrics.git,,
 MPOPT,OCP,,pseudo spectral,,,,,CasADi,,,,https://github.com/mpopt/mpopt,,
-Onspot,MPC,,,Fortran,,,,,,,,,,
+Onspot,MPC,nonlinear,,Fortran,,,,,,,,,,
