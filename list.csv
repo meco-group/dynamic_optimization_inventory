@@ -103,6 +103,7 @@ Fabrics,Motion planning,,Differential geometry,,,,,,,,,git@github.com:tud-amr/fa
 MPCJAX,MPC,,,,,,,,,,,git@github.com:rdyro/mpcjax.git,,
 OpTaS,Motion planning,,,,,,,CasADi,,,,git@github.com:tud-amr/fabrics.git,,
 MPOPT,OCP,,pseudo spectral,,,,,CasADi,,,,https://github.com/mpopt/mpopt,,
+MAPTOR,OCP,,pseudo spectral,python,python,no,CasADi,LGPL 3,yes,nothing to obtain,pip,https://github.com/maptor/maptor,none so far,early development
 Onspot,MPC,nonlinear,,Fortran,,,,,,,,,,
 Sleipnir,NLP OCP,,C++ Python,,,,,,,,,git@github.com:SleipnirGroup/Sleipnir.git,,
 NeuroMancer,MPC,,,Python,,,,,,,,git@github.com:pnnl/neuromancer.git,,
